@@ -1,0 +1,46 @@
+<HTML>
+    <HEAD> <TITLE>AUTHENTIFICATION</TITLE>
+        <link rel="stylesheet" href="style.css"> </HEAD>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"">
+
+   <BODY >
+    <div class="login-form">
+        <div class="left-side">
+    <form name="INSCRIPTION" action="bienvenu.php" method="POST" >
+        <h1>Login</h1>
+        <div class="form-group">
+            <span class="details"> Adresse e-mail </span>  
+            <input type="text" name="mail" placeholder="Saisir votre adresse"> 
+        </div>         
+        <div class="form-group"> 
+            <span class="details"> Mot de passe </span>  
+            <input type="password" name="mdp" placeholder="Saisir votre mot de passe">
+        </div>    
+        <div class="form-group"> 
+            <span class="details"> Role </span> 
+            <div class="select" >
+             <select  name ="role" size="1" > 
+                <option value="">--- choisir un role ---</option>
+               <option value="ensg">Enseignent</option>
+               <option value="etud"> Etudiant </option>
+               <option value="admin"> Administrateur </option>
+               </select>
+            </div>
+       </div>
+        <p> <input class="login-btn" type="submit" value="CONNEXION" />   </p>    
+            <p>    <input class="login-btn" type="reset" value="ANNULER" />  </p>     
+       <p>Vous n'avez pas de compte? 
+    <a href="inscrit.html"> Creer un compte </a> </p>
+</div>
+<div class="right-sideindex">
+    <div classe="box" >
+        <h2 >BIENVENU DANS NOTRE SITE WEB</h2>
+       
+        </div>
+    </div>
+</div>
+   </form>
+   </div>
+ </BODY>    
+ </HTML>
+ 
